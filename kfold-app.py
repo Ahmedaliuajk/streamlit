@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import cv2
+
 import joblib
 from PIL import Image
 import os
@@ -52,3 +52,4 @@ if uploaded:
             st.error("🛑 Melanoma Detected")
         else:
             st.success("✅ No Melanoma Detected")
+
